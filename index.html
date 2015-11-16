@@ -28,6 +28,12 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+        #contact iframe {
+            pointer-events: none;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -38,22 +44,22 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Dude Tech Day</a>
+                <a href="#top" onclick=$("#menu-close").click();>Dude Tech Day</a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >Register</a>
+                <a href="#about" onclick=$("#menu-close").click();>Register</a>
             </li>
             <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Things to Share</a>
+                <a href="#services" onclick=$("#menu-close").click();>Things to Share</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Agenda</a>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Agenda</a>
             </li>
             <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
             </li>
         </ul>
     </nav>
@@ -63,7 +69,7 @@
         <div class="text-vertical-center">
             <h1>Dude Tech Day 2016</h1>
             <h2>Lessons Learned in Failing Fast</h2>
-            <h2>February 20th, 2016 | 9a-4p</h2>
+            <h3>February 20th, 2016 | 9a-4p</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
@@ -75,6 +81,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Register Now!</h2>
+                    <p>Registration opens on December 1st, 2015 at 9am.  Reserve your seat now, only 70 seats are available!</p>
                     <a href="https://dudetechday.eventbrite.com" class="btn btn-lg btn-primary">Register Now</a>
                 </div>
             </div>
@@ -95,9 +102,9 @@
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rocket fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-rocket fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
                                     <strong>Product</strong>
                                 </h4>
@@ -107,9 +114,9 @@
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-users fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-users fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
                                     <strong>Team</strong>
                                 </h4>
@@ -119,9 +126,9 @@
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-code-fork fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-code-fork fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
                                     <strong>Process</strong>
                                 </h4>
@@ -155,7 +162,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="portfolio-item">
-                                Coming Soon!
+                                We're finalizing speakers and sessions now.  We'll provide a full agenda as we get closer to the event.
                             </div>
                         </div>
                     </div>
@@ -184,12 +191,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Dude Solutions, Inc.</strong>
+                    <h4>
+                        <strong>Dude Solutions, Inc.</strong>
                     </h4>
                     <p>11000 Regency Parkway, Suite 110<br>Cary, NC 27518</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (877) 868-3833</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:info@dudesolutions.com">info@dudesolutions.com</a>
+                        <li>
+                            <i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:info@dudesolutions.com">info@dudesolutions.com</a>
                         </li>
                     </ul>
                     <br>
@@ -219,34 +228,34 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
+        // Closes the sidebar menu
+        $("#menu-close").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
         });
-    });
+
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        // Scrolls to the selected menu item on the page
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
     </script>
 
 </body>
