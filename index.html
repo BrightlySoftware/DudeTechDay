@@ -74,10 +74,10 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1 style="color: #175977;">Dude Solutions</h1>
-			<h1 style="color: #A0BF4C; font-size: 8em;">Technology Day</h1>
-			<h1 style="color: #74AABF; font-size: 800%;">2016</h1>
+		<div class="text-vertical-center">		
+            <h1 id="dsi" style="color: #175977;">Dude Solutions</h1>
+			<h1 id="techday" style="color: #A0BF4C; font-size: 8em;">Technology Day</h1>
+			<h1 id="year" style="color: #74AABF; font-size: 800%;">2016</h1>
             <h2>Lessons Learned in Failing Fast</h2>
             <h3>February 20th, 2016 | 9a-4p</h3>
 			<h2><a style="color: #A0BF4C;" href="https://twitter.com/hashtag/dsitechday16" target="_blank">#DSITechDay16</a></h2>
@@ -534,10 +534,11 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
-        // Closes the sidebar menu
+		// Closes the sidebar menu
         $("#menu-close").click(function (e) {
             e.preventDefault();
             $("#sidebar-wrapper").toggleClass("active");
@@ -549,8 +550,9 @@
             $("#sidebar-wrapper").toggleClass("active");
         });
 
-        // Scrolls to the selected menu item on the page
+        // Initial wireup
         $(function () {
+			// Scrolls to the selected menu item on the page
             $('a[href*=#]:not([href=#])').click(function () {
                 if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
@@ -564,7 +566,13 @@
                     }
                 }
             });
-        });
+			
+			// Fits the headers
+			$("#dsi").fitText(1.8);
+			$("#techday").fitText();
+			$("#year").fitText(1.2);
+        });		
+		
     </script>
 
 </body>
