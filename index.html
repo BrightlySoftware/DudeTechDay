@@ -1,18 +1,18 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
-<!-- 
+<!--
 ===========================================================================
-    ____            __        _____       __      __  _                 
+    ____            __        _____       __      __  _
    / __ \__  ______/ /__     / ___/____  / /_  __/ /_(_)___  ____  _____
   / / / / / / / __  / _ \    \__ \/ __ \/ / / / / __/ / __ \/ __ \/ ___/
- / /_/ / /_/ / /_/ /  __/   ___/ / /_/ / / /_/ / /_/ / /_/ / / / (__  ) 
-/_________,_/\__,_/\___/   /____/\____/_/\__,_/\__/_/\____/_/ /_/____/  
-   / ____/___  ____ _(_)___  ___  ___  _____(_)___  ____ _              
-  / __/ / __ \/ __ `/ / __ \/ _ \/ _ \/ ___/ / __ \/ __ `/              
- / /___/ / / / /_/ / / / / /  __/  __/ /  / / / / / /_/ /               
-/_____/_/ /_/\__, /_/_/ /_/\___/\___/_/  /_/_/ /_/\__, /                
-            /____/                               /____/                 
+ / /_/ / /_/ / /_/ /  __/   ___/ / /_/ / / /_/ / /_/ / /_/ / / / (__  )
+/_________,_/\__,_/\___/   /____/\____/_/\__,_/\__/_/\____/_/ /_/____/
+   / ____/___  ____ _(_)___  ___  ___  _____(_)___  ____ _
+  / __/ / __ \/ __ `/ / __ \/ _ \/ _ \/ ___/ / __ \/ __ `/
+ / /___/ / / / /_/ / / / / /  __/  __/ /  / / / / / /_/ /
+/_____/_/ /_/\__, /_/_/ /_/\___/\___/_/  /_/_/ /_/\__, /
+            /____/                               /____/
 ===========================================================================
 -->
 
@@ -23,14 +23,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="We've all heard the saying that 'it takes a village to raise a child'. When you turn that into an analogy about software, our products/projects are the children, and the whole world is the village. The info we'll share in our sessions are our attempt to throw our ideas, theories, mistakes, and whatever else we can think of back into the village. We hope it helps, even if it is just a little bit…" />
     <meta name="author" content="Dude Solutions, Inc." />
-	<meta name="keywords" content="agile, development, software, software engineering, agile development, fail fast, lessons learned, retro, retrospective, tech day, dude solutions, dsi, schooldude, facilitydude" />
-	<meta name="robots" content="index, follow" />
-	
-	<meta property="og:title" content="Dude Solutions Tech Day 2016" />
-	<meta property="og:description" content="We've all heard the saying that 'it takes a village to raise a child'. When you turn that into an analogy about software, our products/projects are the children, and the whole world is the village. The info we'll share in our sessions are our attempt to throw our ideas, theories, mistakes, and whatever else we can think of back into the village. We hope it helps, even if it is just a little bit…" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://techday.dudesolutions.io" />
-	<meta property="og:image" content="http://techday.dudesolutions.io/img/banner.jpg" />
+    <meta name="keywords" content="agile, development, software, software engineering, agile development, fail fast, lessons learned, retro, retrospective, tech day, dude solutions, dsi, schooldude, facilitydude" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="Dude Solutions Tech Day 2016" />
+    <meta property="og:description" content="We've all heard the saying that 'it takes a village to raise a child'. When you turn that into an analogy about software, our products/projects are the children, and the whole world is the village. The info we'll share in our sessions are our attempt to throw our ideas, theories, mistakes, and whatever else we can think of back into the village. We hope it helps, even if it is just a little bit…" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://techday.dudesolutions.io" />
+    <meta property="og:image" content="http://techday.dudesolutions.io/img/banner.jpg" />
 
     <title>Dude Solutions Tech Day 2016</title>
 
@@ -67,35 +67,38 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Tech Day</a>
+                <a href="#top" onclick="$('#menu-close').click();">Tech Day</a>
             </li>
             <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+                <a href="#top" onclick="$('#menu-close').click();">Home</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>Why are we doing this?</a>
+                <a href="#about" onclick="$('#menu-close').click();">Why are we doing this?</a>
             </li>
             <li>
-                <a href="#share" onclick=$("#menu-close").click();>Things to Share</a>
+                <a href="#share" onclick="$('#menu-close').click();">Things to Share</a>
             </li>
             <li>
-                <a href="#agenda" onclick=$("#menu-close").click();>Agenda</a>
+                <a href="#agenda" onclick="$('#menu-close').click();">Agenda</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+                <a href="#decks" onclick="$('#menu-close').click();">Slide Decks</a>
+            </li>
+            <li>
+                <a href="#contact" onclick="$('#menu-close').click();">Contact</a>
             </li>
         </ul>
     </nav>
 
     <!-- Header -->
     <header id="top" class="header">
-		<div class="text-vertical-center">		
+        <div class="text-vertical-center">
             <h1 id="dsi" style="color: #175977;">Dude Solutions</h1>
-			<h1 id="techday" style="color: #A0BF4C; font-size: 8em;">Technology Day</h1>
-			<h1 id="year" style="color: #74AABF; font-size: 800%;">2016</h1>
+            <h1 id="techday" style="color: #A0BF4C; font-size: 8em;">Technology Day</h1>
+            <h1 id="year" style="color: #74AABF; font-size: 800%;">2016</h1>
             <h2>Lessons Learned in Failing Fast</h2>
             <h3>February 20th, 2016 | 9a-4p</h3>
-			<h2><a style="color: #A0BF4C;" href="https://twitter.com/hashtag/dsitechday16" target="_blank">#DSITechDay16</a></h2>
+            <h2><a style="color: #A0BF4C;" href="https://twitter.com/hashtag/dsitechday16" target="_blank">#DSITechDay16</a></h2>
             <br>
             <a href="https://dudetechday.eventbrite.com" class="btn btn-lg btn-dark">Register Now</a>
         </div>
@@ -214,280 +217,280 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="portfolio-item text-left">
-                                <h3>Saturday, February 20th 2016</h3>								
-								<hr>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											9:00am
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-cutlery fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-success">
-										<span class="lead">
-											Breakfast
-										</span>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											9:45am
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-hand-spock-o fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-warning">
-										<span class="lead">
-											Keynote
-										</span>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											10:00am
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-code-fork fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-primary">
-										<p class="lead">
-											Scaling Agile, The Dude Way
-										</p>
-										<p>
+                                <h3>Saturday, February 20th 2016</h3>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            9:00am
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-cutlery fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-success">
+                                        <span class="lead">
+                                            Breakfast
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            9:45am
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-hand-spock-o fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-warning">
+                                        <span class="lead">
+                                            Keynote
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            10:00am
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-code-fork fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-primary">
+                                        <p class="lead">
+                                            Scaling Agile, The Dude Way
+                                        </p>
+                                        <p>
                                             Scaling agile is the new hotness. In fact, some would say it is so hot that it has already jumped the shark. Dude Solutions combined multiple agile approaches into a successful, unique recipe for scaling agile. Our speakers walk you through the iterations the Dude took along this journey. Learn how we applied portions of Lean, Scrum, Spotify, SaFE, and others into what we refer to as "The Agile Donut". Yes, we are serious. We really do call it "The Agile Donut". This recipe enabled Dude Solutions to grow from 5 to 30+ engineers and ship 5 products in less than 12 months. Applied appropriately, we believe "The Agile Donut" can help you achieve similar results.
-										</p>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											10:30am
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-coffee fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-danger">
-										<span class="lead">
-											Break
-										</span>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											10:45am
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-rocket fa-stack-1x text-primary"></i>
-										</span>
-									</div>									
-									<div class="col-xs-10 schedule bg-primary">
-										<p class="lead">
-											Building Consumable APIs with Auto-Generated SDKs
-										</p>
-										<p>
-											Development teams spend an enormous amount of time building an API. How do you know it is consumable? We'll provide a look at how the Dude takes a contract first approach to building its APIs and the benefits of auto generated SDKs.
-										</p>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											11:15am
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-coffee fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-danger">
-										<span class="lead">
-											Break
-										</span>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											11:30am
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-users fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-primary">
-										<p class="lead">
-											You <i>Can</i> Teach an Old Dog New Tricks
-										</p>
-										<p>
-											Overcoming the personal challenges of going from a waterfall environment to an agile environment.
-										</p>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											12:00pm
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-cutlery fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-success">
-										<span class="lead">
-											Lunch
-										</span>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											1:00pm
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-users fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-primary">
-										<p class="lead">
-											Agile Architecture
-										</p>
-										<p>
-											Building an architecture to support the development of a platform, various products, and sustaining massive growth-fueled change while operating in an agile environment.
-										</p>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											1:30pm
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-coffee fa-stack-1x text-primary"></i>
-										</span>										
-									</div>
-									<div class="col-xs-10 schedule bg-danger">
-										<span class="lead">
-											Break
-										</span>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											1:45pm
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-rocket fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-primary">
-										<p class="lead">
-											Scaling Angular in Enterprise Apps
-										</p>
-										<p>
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            10:30am
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-coffee fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-danger">
+                                        <span class="lead">
+                                            Break
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            10:45am
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-rocket fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-primary">
+                                        <p class="lead">
+                                            Building Consumable APIs with Auto-Generated SDKs
+                                        </p>
+                                        <p>
+                                            Development teams spend an enormous amount of time building an API. How do you know it is consumable? We'll provide a look at how the Dude takes a contract first approach to building its APIs and the benefits of auto generated SDKs.
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            11:15am
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-coffee fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-danger">
+                                        <span class="lead">
+                                            Break
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            11:30am
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-users fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-primary">
+                                        <p class="lead">
+                                            You <i>Can</i> Teach an Old Dog New Tricks
+                                        </p>
+                                        <p>
+                                            Overcoming the personal challenges of going from a waterfall environment to an agile environment.
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            12:00pm
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-cutlery fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-success">
+                                        <span class="lead">
+                                            Lunch
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            1:00pm
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-users fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-primary">
+                                        <p class="lead">
+                                            Agile Architecture
+                                        </p>
+                                        <p>
+                                            Building an architecture to support the development of a platform, various products, and sustaining massive growth-fueled change while operating in an agile environment.
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            1:30pm
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-coffee fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-danger">
+                                        <span class="lead">
+                                            Break
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            1:45pm
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-rocket fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-primary">
+                                        <p class="lead">
+                                            Scaling Angular in Enterprise Apps
+                                        </p>
+                                        <p>
                                             Building large scale Angular apps has its challenges. See how Dude Solutions uses patterns and process to scale Angular apps across multiple development teams, code bases, and products.
-										</p>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											2:15pm
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-coffee fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-danger">
-										<span class="lead">
-											Break
-										</span>										
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											2:30pm
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-code-fork fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-primary">
-										<p class="lead">
-											Delivering the Dude: Continuous X
-										</p>
-										<p>
-											The process of building and deploying software can be tedious, difficult, and problem-prone.  Even more challenging is building a continuous integration and delivery platform that can be flexible and adaptive to your agile software teams.  Take a sneak peek into how Dude Solutions revamped and replaced their entire continuous integration and delivery process with a brand new environment and toolset in just under 3 months!  We will share our experiences: the good, the bad, and the ugly.
-										</p>
-									</div>
-								</div>
-								<hr/>
-								<div class="row"/>
-									<div class="col-xs-2">
-										<span class="lead">
-											3:00pm
-										</span>
-										<br/>
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-											<i class="fa fa-code fa-stack-1x text-primary"></i>
-										</span>
-									</div>
-									<div class="col-xs-10 schedule bg-primary">
-										<p class="lead">
-											Hops & Hacks
-										</p>
-										<p>
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            2:15pm
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-coffee fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-danger">
+                                        <span class="lead">
+                                            Break
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            2:30pm
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-code-fork fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-primary">
+                                        <p class="lead">
+                                            Delivering the Dude: Continuous X
+                                        </p>
+                                        <p>
+                                            The process of building and deploying software can be tedious, difficult, and problem-prone.  Even more challenging is building a continuous integration and delivery platform that can be flexible and adaptive to your agile software teams.  Take a sneak peek into how Dude Solutions revamped and replaced their entire continuous integration and delivery process with a brand new environment and toolset in just under 3 months!  We will share our experiences: the good, the bad, and the ugly.
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <span class="lead">
+                                            3:00pm
+                                        </span>
+                                        <br />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                                            <i class="fa fa-code fa-stack-1x text-primary"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-10 schedule bg-primary">
+                                        <p class="lead">
+                                            Hops & Hacks
+                                        </p>
+                                        <p>
                                             Do you like beer? Do you like to play with technology? Come find out why Dude Solutions does Hackathons.
-										</p>
-									</div>
-								</div>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -500,33 +503,67 @@
         </div>
         <!-- /.container -->
     </section>
-	
-	<section class="bg-primary">
-		<div class="container">
-			<div class="row">
+
+    <section id="decks" class="decks">
+        <div class="container">
+            <hr />
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Slide Decks</h2>
+                    <hr class="small">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <script async class="speakerdeck-embed" data-id="7b18ece1c371418a98845918f6defb16" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
+                </div>
+                <div class="col-md-4">
+                    <script async class="speakerdeck-embed" data-id="06e759a90a224b768fe04c7d55c85666" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+                </div>
+                <div class="col-md-4">
+                    <script async class="speakerdeck-embed" data-id="7a404200285e407c8901ad4ad88cd20b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <script async class="speakerdeck-embed" data-id="5eadda97ba774b81909bb01be556704a" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+                </div>
+                <div class="col-md-4">
+                    <script async class="speakerdeck-embed" data-id="921d65de0f51412fad13ac7b897896b2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+                </div>
+                <div class="col-md-4">
+                    <script async class="speakerdeck-embed" data-id="0cce0c38729e4da597ca81d9eed6b65d" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Follow, Like, Share: <a style="color: white;" href="https://twitter.com/hashtag/dsitechday16" target="_blank">#DSITechDay16</a></h2>
                     <hr class="small">
                 </div>
             </div>
-			<div class="row">
-				<div class="col-lg-10 col-lg-offset-1 text-center">
-					<p>
-					<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/DSITechDay16" data-widget-id="685126428334133249">#DSITechDay16 Tweets</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					</p>
-				</div>
-			</div>
-		</div>		
-	</section>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <p>
+                        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/DSITechDay16" data-widget-id="685126428334133249">#DSITechDay16 Tweets</a>
+                        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Map -->
     <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.9060496105026!2d-78.80112818441329!3d35.72852903498343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac8d2f4f115c4f%3A0x5ca31db6f3795317!2sDude+Solutions!5e0!3m2!1sen!2sus!4v1447184928614"></iframe>
-        <br />
-        <small>
-            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.9060496105026!2d-78.80112818441329!3d35.72852903498343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac8d2f4f115c4f%3A0x5ca31db6f3795317!2sDude+Solutions!5e0!3m2!1sen!2sus!4v1447184928614"></a>
-        </small>
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.9060496105026!2d-78.80112818441329!3d35.72852903498343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac8d2f4f115c4f%3A0x5ca31db6f3795317!2sDude+Solutions!5e0!3m2!1sen!2sus!4v1447184928614">
+            <br />
+            <small>
+                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.9060496105026!2d-78.80112818441329!3d35.72852903498343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac8d2f4f115c4f%3A0x5ca31db6f3795317!2sDude+Solutions!5e0!3m2!1sen!2sus!4v1447184928614"></a>
+            </small>
         </iframe>
     </section>
 
@@ -569,11 +606,11 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.fittext.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
-		// Closes the sidebar menu
+        // Closes the sidebar menu
         $("#menu-close").click(function (e) {
             e.preventDefault();
             $("#sidebar-wrapper").toggleClass("active");
@@ -587,7 +624,7 @@
 
         // Initial wireup
         $(function () {
-			// Scrolls to the selected menu item on the page
+            // Scrolls to the selected menu item on the page
             $('a[href*=#]:not([href=#])').click(function () {
                 if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
@@ -601,25 +638,27 @@
                     }
                 }
             });
-			
-			// Fits the headers
-			$("#dsi").fitText({maxFontSize: '500px'});
-			$("#techday").fitText({maxFontSize: '900px'});
-			$("#year").fitText({maxFontSize: '700px'});
-        });		
-		
-    </script>
-	
-	<script>
-		// The Googles!!!
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-63408101-2', 'auto');
-		ga('send', 'pageview');
-</script>
+            // Fits the headers
+            $("#dsi").fitText({ maxFontSize: '500px' });
+            $("#techday").fitText({ maxFontSize: '900px' });
+            $("#year").fitText({ maxFontSize: '700px' });
+        });
+
+    </script>
+
+    <script>
+        // The Googles!!!
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-63408101-2', 'auto');
+        ga('send', 'pageview');
+    </script>
 
 </body>
 
